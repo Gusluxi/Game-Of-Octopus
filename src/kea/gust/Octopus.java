@@ -15,7 +15,7 @@ public class Octopus extends Animal {
   public void makeDoActivity(String squidName) {
 
     for (;;) {
-      //Pause for 4 seconds Yep
+      //Pause for 4 seconds Yep Nope
       try {
         String activity = selectActivity();
         System.out.printf("%-10s" +"%s",squidName+": ",activity+"\n");
