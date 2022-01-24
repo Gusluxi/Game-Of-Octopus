@@ -51,7 +51,9 @@ public class Octopus extends Animal {
         break;
       case 4: activity = "Sleep"+sleep();
         break;
-      case 5, 6: activity = "Inc"+specialMove();
+      case 5:
+      case 6:
+        activity = "Inc"+specialMove();
         break;
       case 7: activity = "Hide"+danger();
         break;
